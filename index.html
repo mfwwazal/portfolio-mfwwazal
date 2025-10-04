@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Fawwaz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-slate-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-slate-800 p-4 sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" 
+    class="text-2xl font-bold text-cyan-400 cursor-pointer hover:text-cyan-300 transition">
+  Fawwaz.dev
+</h1>
+
+      <ul class="flex gap-6">
+        <li><a id="tentangKu" class="hover:text-cyan-400">About Me</a></li>
+        <li><a class="nav-project hover:text-cyan-400">Projects</a></li>
+        <li><a id="nav-certificate" class="hover:text-cyan-400">Certificates</a></li>
+        <li><a class="nav-contact hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Hero -->
+<section id="tentangMe" class="min-h-screen flex items-center px-6">
+  <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Text -->
+    <div>
+      <h1 class="text-5xl font-extrabold leading-tight">
+        Hello, I am <span class="text-cyan-400">Muhammad Fawwaz Alfitra</span>
+      </h1>
+      <p class="mt-4 text-lg text-gray-300">
+        Students of SMK-IT As-Syifa. Learning modern, interactive, and responsive web & mobile apps.
+      </p>
+      
+      <!-- Tombol -->
+      <div class="mt-6 flex gap-4">
+        <a class="nav-project bg-cyan-500 hover:bg-cyan-400 px-6 py-3 rounded-lg text-white shadow-lg">
+          View Project
+        </a>
+        <a class="nav-contact border border-cyan-400 px-6 py-3 rounded-lg text-cyan-400 hover:bg-cyan-500/10">
+          Contact Me
+        </a>
+      </div>
+      
+<div class="mt-6 flex flex-wrap gap-3">
+  <!-- HTML -->
+  <span class="px-4 py-2 bg-slate-800 border border-orange-500 rounded-lg text-orange-400 text-sm flex items-center gap-2">
+    <i class="devicon-html5-plain colored text-xl"></i> HTML
+  </span>
+  <!-- CSS -->
+  <span class="px-4 py-2 bg-slate-800 border border-blue-500 rounded-lg text-blue-400 text-sm flex items-center gap-2">
+    <i class="devicon-css3-plain colored text-xl"></i> CSS
+  </span>
+  <!-- JavaScript -->
+  <!-- <span class="px-4 py-2 bg-slate-800 border border-yellow-400 rounded-lg text-yellow-300 text-sm flex items-center gap-2">
+    <i class="devicon-javascript-plain colored text-xl"></i> JavaScript
+  </span> -->
+  <!-- PHP -->
+  <span class="px-4 py-2 bg-slate-800 border border-purple-500 rounded-lg text-purple-400 text-sm flex items-center gap-2">
+    <i class="devicon-php-plain colored text-xl"></i> PHP
+  </span>
+  <!-- Tailwind -->
+  <span class="px-4 py-2 bg-slate-800 border border-cyan-400 rounded-lg text-cyan-300 text-sm flex items-center gap-2">
+    <i class="devicon-tailwindcss-plain colored text-xl"></i> Tailwind
+  </span>
+  <!-- Flutter -->
+  <span class="px-4 py-2 bg-slate-800 border border-sky-400 rounded-lg text-sky-300 text-sm flex items-center gap-2">
+    <i class="devicon-flutter-plain colored text-xl"></i> Flutter
+  </span>
+  <!-- MySQL -->
+  <span class="px-4 py-2 bg-slate-800 border border-blue-400 rounded-lg text-blue-300 text-sm flex items-center gap-2">
+    <i class="devicon-mysql-plain colored text-xl"></i> MySQL
+  </span>
+  <!-- Laravel -->
+  <span class="px-4 py-2 bg-slate-800 border border-red-500 rounded-lg text-red-400 text-sm flex items-center gap-2">
+    <i class="devicon-laravel-plain colored text-xl"></i> Laravel
+  </span>
+  <!-- Git -->
+  <span class="px-4 py-2 bg-slate-800 border border-orange-600 rounded-lg text-orange-400 text-sm flex items-center gap-2">
+    <i class="devicon-git-plain colored text-xl"></i> Git
+  </span>
+  <span class="px-3 py-2 bg-dark border rounded text-primary small d-flex align-items-center gap-2" 
+      style="border-color: #555;">
+  <i class="devicon-bootstrap-plain colored fs-5"></i> Bootstrap
+</span>
+
+
+</div>
+
+
+    </div>
+
+    <!-- Foto Profil -->
+    <div class="flex justify-center">
+      <img src="assets/img/profile.JPG" alt="Foto Fawwaz"
+           class="rounded-full w-96 h-96 object-cover border-4 border-cyan-500 shadow-2xl">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+<section id="projects" class="container mx-auto px-6 py-12">
+  <h2 class="text-3xl font-bold text-cyan-400 mb-10">Projects</h2>
+
+  <!-- Website Projects -->
+  <h3 class="text-2xl font-bold text-cyan-300 mb-6">Website Projects</h3>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+    <!-- Website Project 1 -->
+    <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+      <h4 class="text-xl font-semibold text-cyan-200 mb-3">Age Calculator Website</h4>
+      <video 
+        src="assets/video/project2.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="w-full h-48 object-cover rounded-lg mb-3"
+      ></video>
+      <p class="text-gray-400 text-sm">
+        This website is a PHP-based application that calculates a person's age quickly, easily, and accurately. Users simply enter their date of birth using the provided input form, and the system will automatically process the data using PHP's date calculation logic.
+      </p>
+    </div>
+
+    <!-- Website Project 2 -->
+    <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+      <h4 class="text-xl font-semibold text-cyan-200 mb-3">Game Store Website</h4>
+      <video 
+        src="assets/video/project1.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="w-full h-48 object-cover rounded-lg mb-3"
+      ></video>
+      <p class="text-gray-400 text-sm">
+        This website is a digital marketplace for purchasing games and top-ups (credit/diamonds/coins/game credits), as well as an esports news and info portal. Users can purchase games (keys/digital), top up their balance/in-game equipment, view leaderboards/events, and read tournament news/timelines. Admins can manage products, vouchers, transactions, and esports content.
+      </p>
+    </div>
+    <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+      <h4 class="text-xl font-semibold text-cyan-200 mb-3">Teacher Absence</h4>
+      <video 
+        src="assets/video/project3.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="w-full h-48 object-cover rounded-lg mb-3"
+      ></video>
+      <p class="text-gray-400 text-sm">
+        This website is a PHP-based online attendance application that helps companies or agencies record employee attendance practically and efficiently. This attendance system is designed to allow employees to check in and out through the website according to their designated working hours.
+      </p>
+    </div>
+  </div>
+
+  <!-- Mobile App Projects -->
+  <h3 class="text-2xl font-bold text-cyan-300 mb-6">Mobile App Projects</h3>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Mobile App Project 1 -->
+    <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+      <h4 class="text-xl font-semibold text-cyan-200 mb-3">Prayer App Mobile</h4>
+      <video 
+        src="assets/video/mobile1.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="aspect-[9/16] max-w-sm w-full object-cover rounded-lg mb-3"
+      ></video>
+      <p class="text-gray-400 text-sm text-center">
+        This app is a Flutter-based mobile app with a modern, responsive, and user-friendly interface. Its primary focus is providing user authentication (login and registration) and displaying real-time time directly within the app.
+      </p>
+    </div>
+    <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+      <h4 class="text-xl font-semibold text-cyan-200 mb-3">Game Store App Mobile</h4>
+      <video 
+        src="assets/video/mobile2.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="aspect-[9/16] max-w-sm w-full object-cover rounded-lg mb-3"
+      ></video>
+      <p class="text-gray-400 text-sm text-center">
+        This application is a Flutter-based mobile application with a modern design that functions to display daily prayer schedules in real-time, equipped with user authentication features so that each user can save personal preferences such as location, adhan reminders, and display themes.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="certificate" class="py-10 bg-slate-900">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-cyan-300 mb-8">My Certificates</h2>
+
+    <!-- Grid Sertifikat -->
+    <div id="certGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <img src="assets/img/certificate/1. Sertifikat Indtroduction Figma.jpg" alt="Certificate 1"
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h4 class="text-lg font-semibold text-cyan-200">Certificate Intoduction Figma</h4>
+        <p class="text-gray-400 text-sm mt-2 text-center">Sertifikat penyelesaian pengenalan Figma</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <img src="assets/img/certificate/2. Sertifikat Figma Tools.jpg" alt="Certificate 2"
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h4 class="text-lg font-semibold text-cyan-200">Certificate Figma Tools</h4>
+        <p class="text-gray-400 text-sm mt-2 text-center">Sertifikat penyelesaian Figma Tools</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <img src="assets/img/certificate/3. Sertifikat WIREFRAMING FOR WEBSITE.jpg" alt="Certificate 3"
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h4 class="text-lg font-semibold text-cyan-200">Certificate WIREFRAMING for WEBSITE</h4>
+        <p class="text-gray-400 text-sm mt-2 text-center">Sertifikat penyelesaian Wireframing for Website</p>
+      </div>
+
+      <!-- Sertifikat tambahan (hidden awalnya) -->
+      <div id="moreCerts" class="hidden opacity-0 transform scale-95 transition-all duration-500 col-span-full">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <a href="assets/img/certificate/Sertifikat Sanbercode.pdf" target="_blank"
+               class="w-full h-16 flex items-center justify-center bg-cyan-500 hover:bg-cyan-400 rounded-lg mb-4 text-white font-semibold transition">
+              Lihat Sertifikat
+            </a>
+            <h4 class="text-lg font-semibold text-cyan-200 text-center">Certificate Bootcamp Flutter</h4>
+            <p class="text-gray-400 text-sm mt-2 text-center">Sertifikat penyelesaian kursus Flutter.</p>
+          </div>
+          <!-- bisa tambah sertifikat lain lagi -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Tombol More/Less -->
+    <div class="text-center mt-6">
+      <button id="moreBtn" class="text-cyan-400 hover:text-cyan-300 font-semibold transition">
+        More
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const moreBtn = document.getElementById("moreBtn");
+  const moreCerts = document.getElementById("moreCerts");
+  let isOpen = false;
+
+  moreBtn.addEventListener("click", () => {
+    if (!isOpen) {
+      moreCerts.classList.remove("hidden");
+      setTimeout(() => {
+        moreCerts.classList.remove("opacity-0", "scale-95");
+      }, 50);
+      moreBtn.textContent = "Less";
+      isOpen = true;
+    } else {
+      moreCerts.classList.add("opacity-0", "scale-95");
+      setTimeout(() => {
+        moreCerts.classList.add("hidden");
+      }, 500); // sesuai durasi transition
+      moreBtn.textContent = "More";
+      isOpen = false;
+    }
+  });
+</script>
+
+
+
+
+  <!-- Contact -->
+<section id="contact" class="container mx-auto px-6 py-12 text-center">
+  <h2 class="text-3xl font-bold text-cyan-400 mb-6">Contact Me</h2>
+  <form action="https://formspree.io/f/myznjlkr" method="POST" class="space-y-4 max-w-md mx-auto">
+    <input type="text" name="name" placeholder="Nama" required class="w-full p-3 rounded bg-slate-800 text-white border border-cyan-400">
+    <input type="email" name="email" placeholder="Email" required class="w-full p-3 rounded bg-slate-800 text-white border border-cyan-400">
+    <textarea name="message" placeholder="Pesan" required class="w-full p-3 rounded bg-slate-800 text-white border border-cyan-400"></textarea>
+    <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-400 text-white py-3 rounded-lg">Kirim</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-slate-800 py-6 text-center text-gray-400">
+    © 2025 Fawwaz.dev. All rights reserved.
+  </footer>
+
+  <!-- Popup -->
+<div id="popup" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+  <div class="bg-slate-900 p-6 rounded-lg shadow-lg text-center w-[90%] max-w-md">
+    <h2 class="text-xl font-bold text-cyan-400 mb-4">Tonton Video Dulu</h2>
+    <video id="popupVideo" controls class="w-full rounded-lg">
+      <source src="assets/video/pemeparan_fitur.mp4" type="video/mp4">
+      Browser kamu tidak mendukung video.
+    </video>
+    <button id="closePopup" class="mt-4 px-4 py-2 bg-cyan-500 hover:bg-cyan-400 rounded text-white">
+      Tutup
+    </button>
+  </div>
+</div>
+
+<script>
+// cek kalau popup sudah pernah muncul di sesi ini
+if (!sessionStorage.getItem("popupShown")) {
+  document.getElementById("popup").classList.remove("hidden");
+}
+
+// tombol close
+document.getElementById("closePopup").addEventListener("click", () => {
+  document.getElementById("popup").classList.add("hidden");
+  sessionStorage.setItem("popupShown", "true"); // tandai sudah pernah
+});
+</script>
+
+
+  <script>
+  document.querySelectorAll(".nav-contact").forEach(btn => {
+    btn.addEventListener("click", function () {
+    document.getElementById("contact").scrollIntoView({
+      behavior: "smooth", // halus
+      block: "start"      // mulai dari atas section
+    });
+  });
+  });
+</script>
+  <script>
+  document.querySelectorAll(".nav-project").forEach(btn => {
+    btn.addEventListener("click", function () {
+    document.getElementById("projects").scrollIntoView({
+      behavior: "smooth", // halus
+      block: "start"      // mulai dari atas section
+    });
+  });
+  });
+</script>
+
+
+  <script>
+  document.getElementById("tentangKu").addEventListener("click", function () {
+    document.getElementById("tentangMe").scrollIntoView({
+      behavior: "smooth", // halus
+      block: "start"      // mulai dari atas section
+    });
+  });
+</script>
+  <script>
+  document.getElementById("nav-certificate").addEventListener("click", function () {
+    document.getElementById("certificate").scrollIntoView({
+      behavior: "smooth", // halus
+      block: "start"      // mulai dari atas section
+    });
+  });
+</script>
+
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 500); // delay dikit biar lebih natural
+  });
+</script>
+
+</body>
+</html>
